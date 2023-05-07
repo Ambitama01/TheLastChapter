@@ -1,0 +1,96 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+.column3 {
+    width: 500px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+#remove {
+    width: 150px;
+}
+
+#place_order {
+    width: 200px;
+    margin-left: 150px;
+}
+
+#place_order a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.field_error {
+    color: red;
+}
+
+#checkout_form {
+    display: none;
+    font-family: 'open+sans', serif;
+    margin-top: 50px;
+}
+
+#ship_form {
+    display: none;
+    font-family: 'open+sans', serif;
+    margin-top: 30px;
+    width: 400px
+}
+
+#bill_form {
+    display: none;
+    font-family: 'open+sans', serif;
+    margin-top: 50px;
+    float: left;
+}
+
+#Mybtn {
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    font-family: 'open+sans', serif;
+    margin-top: 50px;
+    height: 50;
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 15px;
+    margin-left: 29px;
+    cursor: pointer;
+}
+
+#Shipbtn {
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    font-family: 'open+sans', serif;
+    margin-top: 50px;
+    height: 50;
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+#Billbtn {
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    font-family: 'open+sans', serif;
+    margin-top: 50px;
+    height: 50;
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.container>#payment {
+    float: left;
+    margin-top: 90vh;
+    padding: 15px;
+    cursor: pointer;
+    margin-left: -300px;
+}
+
+.container>.form-check {
+    font-family: 'open+sans', serif;
+    margin-top: 50px;
+    float: left;
+    margin-left: 20px;
+}

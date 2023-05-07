@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+.intro {
+    font-size: 5vh;
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    height: 250px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 140px;
+}
+
+.box {
+    display: inline;
+    height: 200px;
+    width: 250px;
+    margin: 15vh 3vw;
+    text-align: center;
+    border-radius: 12px;
+    transition: 1s;
+    padding-top: 13px;
+    padding-bottom: 22px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
+}
+
+.box:hover {
+    font-size: 20px;
+    border-radius: 23px;
+    transform: scale(1.1);
+}
+
+.container a {
+    color: rgb(248, 245, 245);
+    font-size: 4vh;
+    text-decoration: none;
+    font-family: 'alconia';
+    cursor: pointer;
+}
+
+#action {
+    background-image: url("action.jpg");
+    background-size: cover;
+}
+
+#children {
+    background-image: url("anime.jpg");
+    background-size: cover;
+}
+
+#classics {
+    background-image: url("classic.jpg");
+    background-size: cover;
+}
+
+#comics {
+    background-image: url("comic.jpg");
+    background-size: cover;
+}
+
+#mystery {
+    background-image: url("mystery.jpg");
+    background-size: cover;
+}
+
+#fantasy {
+    background-image: url("fantasy.jpg");
+    background-size: cover;
+}
+
+#hfiction {
+    background-image: url("hfiction.jpg");
+    background-size: cover;
+}
+
+#horror {
+    background-image: url("horror.jpg");
+    background-size: cover;
+}
+
+#lfiction {
+    background-image: url("lfiction.jpg");
+    background-size: cover;
+}
+
+#romance {
+    background-image: url("romance.jpg");
+    background-size: cover;
+}
+
+#sci-fi {
+    background-image: url("sci-fi.jpg");
+    background-size: cover;
+}
+
+#short {
+    background-image: url("short.jpg");
+    background-size: cover;
+}
+
+#thriller {
+    background-image: url("thriller.jpg");
+    background-size: cover;
+}
+
+#bibliography {
+    background-image: url("bibliography.jpg");
+    background-size: cover;
+}
+
+#history {
+    background-image: url("history.jpg");
+    background-size: cover;
+}
+
+#poetry {
+    background-image: url("poetry.jpg");
+    background-size: cover;
+}
+
+#non-fiction {
+    background-image: url("non-fiction.jpg");
+    background-size: cover;
+}
+
+#lgbtq {
+    background-image: url("lgbtq.jpg");
+    background-size: cover;
+}
+
+#miscellaneous {
+    background-image: url("misc.png");
+    background-size: cover;
+}
+
+#self-help {
+    background-image: url("self-help.jpg");
+    background-size: cover;
+}
+
+.title {
+    position: relative;
+    padding-top: 60px;
+    text-transform: capitalize;
+    font-family: 'Tangerine', serif;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.tag {
+    position: relative;
+    font-family: 'Tangerine', serif;
+    text-align: center;
+    text-decoration: wavy;
+    margin-top: -20px;
+}
+
+.carousel-caption>.login>a {
+    text-decoration: none;
+}
+
+.top {
+    float: right;
+    margin-right: 40px;
+    font-size: 40px;
+    color: black;
+    background-color: #26272b;
+    scroll-behavior: smooth;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.top>a {
+    color: whitesmoke;
+}

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+#offcanvasNavbar {
+    width: 400px;
+    margin-left: -17px;
+    background-color: rgb(87, 62, 128);
+    background-size: cover;
+    color: #83AF9B;
+}
+
+.btn-btn-outline-success {
+    border-radius: 10px;
+    border: none;
+    width: 15vh;
+    font-family: 'Aclonia';
+    transition: 1s;
+}
+
+.btn-btn-outline-success:hover {
+    transform: scale(1.1);
+}
+
+.offcanvas-header {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: 'tangerine', serif;
+    color: whitesmoke
+}
+
+.navbar-toggler {
+    top: 15px;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    background: white;
+    cursor: pointer;
+    transition: left 0.4s ease;
+    color: #594F4F;
+    border: none;
+}
+
+#offcanvasNavbar>.offcanvas-header>.btn-close {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.offcanvas-body>.navbar-nav>.nav-item>.nav-link {
+    font-family: 'Aclonia';
+    text-transform: capitalize;
+    position: relative;
+    text-decoration: none;
+    margin-left: -17px;
+    padding-left: 30px;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 50px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.offcanvas-body>.navbar-nav>.nav-item>.nav-link:hover {
+    margin-left: none;
+    color: #83AF9B;
+}
+
+.offcanvas-body>.navbar-nav>.nav-item>.nav-link::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #83AF9B;
+    transform: scaleX(0);
+    transition: transform 0.6s ease;
+}
+
+.offcanvas-body>.navbar-nav>.nav-item>.nav-link:hover::before {
+    transform: scaleX(1);
+}
+
+.navbar-brand {
+    font-family: 'Tangerine', serif;
+    font-weight: bold;
+}
+
+.dropdown {
+    z-index: 1;
+    overflow: auto;
+    display: none;
+}
+
+.dropdown ul li {
+    list-style-type: none;
+}
+
+.dropdown ul li a {
+    text-decoration: none;
+    color: #83AF9B;
+    padding-left: 15px;
+    display: block;
+}
+
+.show {
+    display: block;
+}
+
+.show1 {
+    display: block;
+}

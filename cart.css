@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+.flex {
+    display: flex;
+}
+
+.column1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'tangerine', serif;
+}
+
+.column1 .thick {
+    text-decoration-thickness: 2px;
+}
+
+.column2 {
+    font-family: 'Alconia';
+    padding-top: 20px;
+}
+
+.column3 {
+    border: none;
+    font-family: 'Aclonia';
+    font-size: 20px;
+    margin-left: 100px;
+    padding-top: 20px;
+    margin-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    height: fit-content;
+    padding-bottom: 10px;
+}
+
+.checkout {
+    margin-top: 50px;
+}
+
+.total {
+    margin-top: 20px;
+}
+
+.btn-btn-primary {
+    width: 30%;
+    font-family: 'Alconia';
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    transition: 1s;
+}
+
+.btn-btn-primary:hover {
+    background: linear-gradient(233deg, #e4abee, #edebf3, #7956e3);
+    background-size: 600% 600%;
+    color: black;
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+}
+
+.btn-btn-remove {
+    margin-left: 10px;
+    width: 60%;
+    font-family: 'Alconia';
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 1s;
+}
+
+.btn-btn-remove:hover {
+    background: linear-gradient(233deg, #e4abee, #edebf3, #7956e3);
+    background-size: 600% 600%;
+    color: black;
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+}
+
+#checkout {
+    width: 360px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 51% 0%
+    }
+    50% {
+        background-position: 50% 100%
+    }
+    100% {
+        background-position: 51% 0%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 51% 0%
+    }
+    50% {
+        background-position: 50% 100%
+    }
+    100% {
+        background-position: 51% 0%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 51% 0%
+    }
+    50% {
+        background-position: 50% 100%
+    }
+    100% {
+        background-position: 51% 0%
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .column1,
+    .column2,
+    .column3 {
+        width: 100%;
+    }
+}
+
+#checkout {
+    width: 200px;
+    margin-left: 90px;
+}
+
+#checkout a {
+    color: whitesmoke;
+    text-decoration: none;
+}

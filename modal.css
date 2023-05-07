@@ -1,0 +1,88 @@
+.modal-content {
+    background: linear-gradient(63deg, #cb64d5, #8a83e1, #83e197, #eee074);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 25s ease infinite;
+    -moz-animation: AnimationName 25s ease infinite;
+    animation: AnimationName 25s ease infinite;
+}
+
+.view_table {
+    width: 100%;
+    font-family: 'Alconia';
+}
+
+.view_table tr {
+    width: 100%;
+    /*padding-top: 50px;*/
+}
+
+.view_table td {
+    padding: 10px;
+    font-family: 'Alconia';
+}
+
+.modal-footer button {
+    background-color: black;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+}
+
+.modal-footer button:hover {
+    background-color: rgb(156, 153, 153);
+}
+
+.btn-btn-primary {
+    background-color: black;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 8px 13px;
+    transition: 1s;
+}
+
+.btn-btn-primary:hover {
+    background: linear-gradient(233deg, #e4abee, #edebf3, #7956e3);
+    background-size: 600% 600%;
+    color: black;
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 51% 0%
+    }
+    50% {
+        background-position: 50% 100%
+    }
+    100% {
+        background-position: 51% 0%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 51% 0%
+    }
+    50% {
+        background-position: 50% 100%
+    }
+    100% {
+        background-position: 51% 0%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 51% 0%
+    }
+    50% {
+        background-position: 50% 100%
+    }
+    100% {
+        background-position: 51% 0%
+    }
+}
